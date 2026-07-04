@@ -1,13 +1,13 @@
 /* EASY EDIT FILE — replace # with your real links later */
 const BRAND = {
   miniBrand: 'Platinum Custom Co.',
-  eyebrow: 'Custom Apparel • Elk Grove',
+  eyebrow: 'Custom Apparel • Sacramento',
   heroTitleTop: 'Platinum',
   heroTitleMiddle: 'Custom',
-  heroTitleBottom: 'Co.',
+  heroTitleBottom: 'Apparel',
   tagline: 'CREATE IT. WEAR IT. LOVE IT.',
   description: 'Custom apparel for schools, teams, businesses, families & special events.',
-  vibe: 'Bold • Feminine • Street',
+  vibe: '?? • ?? • ??',
   footer: 'Thank you for supporting my small business! ♥'
 };
 const LINKS = {
