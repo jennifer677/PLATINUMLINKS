@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Platinum Custom Co.</title>
+  <meta name="description" content="Custom apparel for schools, teams, businesses, families and special events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="site-shell">
+    <header class="topbar">
+      <div class="brand-mini"><span class="brand-dot"></span><span id="miniBrand"></span></div>
+      <div class="topbar-note">Bold links page</div>
+    </header>
+
+    <section class="hero-grid">
+      <article class="panel hero-copy">
+        <div class="eyebrow" id="eyebrowText"></div>
+        <h1 class="hero-title" id="heroTitle"></h1>
+        <p class="hero-description" id="description"></p>
+        <div class="tagline-badge" id="tagline"></div>
+      </article>
+
+      <aside class="panel hero-art">
+        <img class="logo-art" src="logo.png" alt="Platinum Custom Co. logo" width="1024" height="1024" />
+        <div class="hero-float-cards">
+          <div class="float-card"><span>Main action</span><strong id="quoteCardText"></strong></div>
+          <div class="float-card"><span>Brand vibe</span><strong id="vibeText"></strong></div>
+        </div>
+      </aside>
+    </section>
+
+    <section class="content-grid">
+      <div class="left-column">
+        <section class="panel section-block">
+          <div class="section-head"><h2>Top Links</h2><p>Primary actions</p></div>
+          <div class="action-list">
+            <a class="action-card mint" id="quoteLink" href="#"><div class="action-icon">Q</div><div class="action-copy"><strong id="quoteText"></strong><span>Fastest path for custom order inquiries</span></div><div class="action-arrow">→</div></a>
+            <a class="action-card pink" id="websiteLink" href="#"><div class="action-icon">W</div><div class="action-copy"><strong id="websiteText"></strong><span>Official website and more details</span></div><div class="action-arrow">↗</div></a>
+            <a class="action-card" id="contactLink" href="#"><div class="action-icon">@</div><div class="action-copy"><strong id="contactText"></strong><span>Email me for questions and orders</span></div><div class="action-arrow">→</div></a>
+          </div>
+        </section>
+
+        <section class="panel section-block">
+          <div class="section-head"><h2>Services</h2><p>Same information</p></div>
+          <div class="services-list" id="serviceGrid"></div>
+        </section>
+      </div>
+
+      <div class="right-column">
+        <section class="panel section-block">
+          <div class="section-head"><h2>Let's Connect</h2><p>Socials</p></div>
+          <div class="mini-grid three-up">
+            <a class="mini-card instagram" id="instagramLink" href="#"><div class="mini-symbol">◎</div><strong>Instagram</strong></a>
+            <a class="mini-card facebook" id="facebookLink" href="#"><div class="mini-symbol">f</div><strong>Facebook</strong></a>
+            <a class="mini-card tiktok" id="tiktokLink" href="#"><div class="mini-symbol">♪</div><strong>TikTok</strong></a>
+          </div>
+        </section>
+
+        <section class="panel section-block">
+          <div class="section-head"><h2>Payment Options</h2><p>Easy pay</p></div>
+          <div class="mini-grid three-up">
+            <a class="mini-card venmo" id="venmoLink" href="#"><div class="mini-symbol">V</div><strong>Venmo</strong></a>
+            <a class="mini-card cashapp" id="cashappLink" href="#"><div class="mini-symbol">$</div><strong>Cash App</strong></a>
+            <a class="mini-card paypal" id="paypalLink" href="#"><div class="mini-symbol">P</div><strong>PayPal</strong></a>
+          </div>
+        </section>
+
+        <section class="panel section-block stack-gap">
+          <div class="section-head"><h2>Support</h2><p>Extras</p></div>
+          <a class="support-card pink-support" id="reviewLink" href="#"><span class="support-kicker">★★★★★</span><strong>Leave a Review</strong><p>Your support means the world! ♡</p></a>
+          <a class="support-card mint-support" id="contactCardLink" href="#"><span class="support-kicker">Contact Card</span><strong>Save My Contact</strong><p>Tap to save my info to your phone! ♡</p></a>
+        </section>
+      </div>
+    </section>
+
+    <footer class="footer-bar">
+      <p id="footerText"></p>
+      <small>Upload these files directly to the root of your GitHub repo.</small>
+    </footer>
+  </main>
+
+  <script src="config.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
